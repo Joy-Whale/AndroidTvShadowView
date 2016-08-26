@@ -1,0 +1,10 @@
+ext {
+    androidBuildToolsVersion = "23.0.3"
+    androidMinSdkVersion = 14
+    androidTargetSdkVersion = 22
+    androidCompileSdkVersion = 23
+
+    applicationId = "cn.joy.widget.demo"
+    versionCode = 14
+    versionName = '1.0.1'
+}

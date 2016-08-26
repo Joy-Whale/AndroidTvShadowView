@@ -1,0 +1,7 @@
+apply plugin: 'com.neenbedankt.android-apt'
+
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    compile trustyDependencies.butterKnife
+    apt trustyDependencies.butterKnifeApt
+}

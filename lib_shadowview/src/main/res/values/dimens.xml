@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 阴影默认宽度值 -->
+    <dimen name="shadow_width">10dp</dimen>
+</resources>

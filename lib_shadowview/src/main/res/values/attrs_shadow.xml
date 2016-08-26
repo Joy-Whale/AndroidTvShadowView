@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShadowLayout">
+        <!-- 阴影绘制宽度 -->
+        <attr name="sl_shadowWidth" format="dimension"/>
+        <!-- 阴影绘制资源文件 -->
+        <attr name="sl_shadowDrawable" format="reference|color"/>
+        <!-- 选中效果的放大比例 -->
+        <attr name="sl_scale" format="float"/>
+        <attr name="sl_changeType" format="enum">
+            <enum name="Focus" value="0"/>
+            <enum name="Select" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
